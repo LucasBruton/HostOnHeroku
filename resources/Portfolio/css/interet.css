@@ -1,0 +1,233 @@
+body {
+  background: #C4D7ED;
+  margin: 0;
+  font-family: 'Arima Madurai', cursive;
+}
+
+header {
+  list-style: none;
+  width: 100%;
+  background: #E1E6FA;
+  display: flex;
+  flex-flow: row wrap;
+  top: 0;
+}
+
+.menu {
+  flex: 50%;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+h2 {
+  font-size: 15px;
+  margin-left: 2em;
+  color: #183152;
+}
+
+header a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  font-size: 15px;
+}
+
+header .autre_page:hover , .contactes:hover {
+  background: #375D81;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+
+.page_actuel {
+  color: #E1E6FA;
+  background-color: #183152;
+}
+
+.autre_page {
+  color: #183152;
+}
+
+
+footer {
+  list-style: none;
+  width: 100%;
+  background: #E1E6FA;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  left: 0;
+  bottom: 0;
+  position: relative;
+}
+
+footer a {
+  text-decoration: none;
+  display: block;
+  padding: 0.3em;
+  color: #183152;
+  text-align: center;
+  font-size: 15px;
+}
+
+footer .legal {
+  color: #375D81;
+  font-size: 10px;
+  text-align: center;
+  flex: 100%;
+}
+
+footer img {
+  margin-left: 1em;
+}
+
+.centrer {
+  display: flex;
+  justify-content: center;
+}
+
+.contenu {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  background-color: white;
+  height: 50em;
+  width: 70em;
+}
+
+.sous-partie {
+  width: auto;
+  min-width: 18em;
+  height: auto;
+  flex: 40%;
+  background: #183152;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.titre {
+  display: flex; 
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5em;  
+}
+
+h3 {
+  font-size: 22px;
+  margin: auto;
+  text-align: center;
+  color: #E1E6FA;
+  font-family: 'Lemonada', cursive;
+}
+
+.gallerie {
+  background-color: #E1E6FA;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;  
+}
+
+.image_legende {
+  flex: 25%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-bottom: 0.5em;
+  height: 10em;
+}
+
+.image_legende a {
+  background-color: #C4D7ED;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+img.illustration {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  flex: 75%;
+}
+
+p.legende {
+  flex: 25%;
+  display: block;
+  text-align: center;
+  font-style: italic;
+  height: 1.5em;
+  color: #183152;
+  padding-bottom: 5em;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1000px) {
+.sous-partie {
+  margin: 2em;
+}
+h3 {
+  padding-bottom: 1.5em;
+}
+}
+
+
+@media screen and (max-width: 1000px) {
+.contenu {
+   flex-flow: column;
+   height: 70em;
+   width: 30em;
+   margin-top: 5em;
+   margin-bottom: 10em;
+   padding-left: 2em;
+   padding-right: 2em;
+   padding-bottom: 20em;
+}
+
+h3 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.sous-partie {
+  margin-top: 5em;
+  width: 100%;
+  height: 25%;
+
+}
+
+}
+
+@media screen and (max-width: 750px) {
+.menu {
+  flex: 100%;
+  justify-content: flex-start;
+}
+}
+
+@media screen and (max-width: 500px) {
+h3 {
+	font-size: 18px;
+}
+p.legende {
+  font-size: 13px;
+}
+img.illustration {
+	height: 50px;
+	width : 50px;
+}
+}
+
+
+

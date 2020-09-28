@@ -1,0 +1,143 @@
+body {
+	background: #C4D7ED;
+	margin: 0;
+	font-family: 'Arima Madurai', cursive;
+}
+
+header {
+	list-style: none;
+	width: 100%;
+	background: #E1E6FA;
+	display: flex;
+	flex-flow: row wrap;
+	top: 0;
+	position: fixed;
+}
+
+.menu {
+	flex: 50%;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-end;
+}
+
+h2 {
+	font-size: 15px;
+	margin-left: 2em;
+	color: #183152;
+}
+
+header a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+	font-size: 15px;
+}
+
+header .autre_page:hover , .contactes:hover {
+ 	background: #375D81;
+ 	color: white;
+	transition: all 0.3s linear;
+}
+
+
+.page_actuel {
+	color: #E1E6FA;
+	background-color: #183152;
+}
+
+.autre_page {
+	color: #183152;
+}
+
+
+
+footer {
+	list-style: none;
+	width: 100%;
+	background: #E1E6FA;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	left: 0;
+	bottom: 0;
+	position: fixed;
+}
+
+footer a {
+	text-decoration: none;
+	display: block;
+	padding: 0.3em;
+	color: #183152;
+	text-align: center;
+	font-size: 15px;
+}
+
+footer .legal {
+	color: #375D81;
+	font-size: 10px;
+	text-align: center;
+	flex: 100%;
+}
+
+footer img {
+	margin-left: 1em;
+}
+
+.centrer {
+	display: flex;
+	justify-content: center;
+}
+
+.titre {
+	background-color:  #183152;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 22px;
+	color: #E1E6FA;
+	font-family: 'Lemonada', cursive;	
+}
+.sous-partie {
+	background-color: #E1E6FA;
+	color: #183152;
+	padding-right: 2em;
+}
+
+.contenu {
+	display: flex;
+	flex-flow: column;
+	background-color: white;
+	margin-top: 5em; 
+	padding: 5em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+	max-width: 20em;
+	margin-bottom: 5em;
+}
+
+@media screen and (max-width: 750px) {
+.menu {
+  flex: 100%;
+  justify-content: flex-start;
+}
+
+header {
+	position: relative;
+}
+footer {
+	position: relative;
+}
+}
+@media screen and (max-width: 500px) {
+.contenu {
+	width: 18em; 
+}
+
+textarea {
+	width: 18em;
+}
+
+}
