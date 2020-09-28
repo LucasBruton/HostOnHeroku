@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>accueil</title>
-  <link rel="stylesheet" type="text/css" href="{{ asset('css/accueil.css') }}">
+  <link rel="stylesheet" type="text/css" href="css/accueil.css">
   <link href="https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?Lemonada&display=swap" rel="stylesheet">
 

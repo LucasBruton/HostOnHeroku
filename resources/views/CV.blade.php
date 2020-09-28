@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CV</title>
-  <link rel="stylesheet" href="{{ asset('css/CV.css') }}">
+  <link rel="stylesheet" href="css/CV.css">
   <link href="https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?Lemonada&display=swap" rel="stylesheet">
 
