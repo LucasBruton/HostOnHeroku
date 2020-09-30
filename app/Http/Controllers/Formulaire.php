@@ -10,7 +10,7 @@ class Formulaire extends Controller
     public function index() {
     	$request=request()->post();
 
-    	if(is_array($request)) {
+    	if(!$request) {
     		FormulaireModel::insertFormulaire($request);
     		$data=FormulaireModel::getFormulaires();
     		return view('resultats_formulaire',['data'=>$data,'request'=>$request]);
