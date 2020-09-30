@@ -28,7 +28,7 @@
       <h1>Formulaire</h1>
     </div>
     <div class="sous-partie">
-      <form action="/formulaire_resultats" method="POST">
+      <form action="/formulaire_resultats" method="GET">
         Nom :<br>
         <input type="text" name="nom" value="Charles Moulin" required>
         <br><br>
