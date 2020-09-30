@@ -270,6 +270,14 @@ div.centrer {
 	height: 10%;
 }
 
+div.centrer2 {
+	display: flex;
+	justify-content: center;
+	margin-top: 3em;
+	padding: 1px 16px;
+	height: 10%;
+}
+
 
 header {
 	top: 0;
