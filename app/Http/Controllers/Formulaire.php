@@ -8,7 +8,7 @@ use App\Models\FormulaireModel;
 class Formulaire extends Controller
 {
     public function index() {
-    	$request=request()->get();
+    	$request=request()->post();
 
     	if(!empty($request)) {
     		FormulaireModel::insertFormulaire($request);
