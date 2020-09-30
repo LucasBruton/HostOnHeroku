@@ -12,4 +12,8 @@ class FormulaireModel extends Model {
 
         return $formulaires;
     }
+
+   	public static function insertFormulaire($request) {
+	DB::table('Formulaire')->insert(['Nom' => $request["nom"], 'Email' => $request["email"], 'Entreprise' => $request["entreprise"],'Message' => $request["message"]]); 		
+   	}
 }

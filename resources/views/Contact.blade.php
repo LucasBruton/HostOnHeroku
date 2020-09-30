@@ -33,7 +33,7 @@
         <input type="text" name="nom" value="Charles Moulin" required>
         <br><br>
         Entrprise :<br>
-        <input type="text" name="enteprise" value="Ikea" required>
+        <input type="text" name="entreprise" value="Ikea" required>
         <br><br>
         Email :<br>
         <input type="email" name="email" value="exemple@domaine.com" required>
